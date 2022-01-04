@@ -38,8 +38,8 @@ import model.LoginDao;
 import view.CoronaDistance;
 import view.CoronaNews;
 import view.CovidInfo;
-import view.CovidStatus;
 import view.ImmunizationClinic;
+import view.CovidStatus;
 import view.MemInfo;
 import view.Screening;
 import view.VaccineStatics;
@@ -572,14 +572,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 부산
 
 		if (Busan.equals("1")) {
-			BusanImg = "img/부산_1.png";
+			BusanImg = "부산_1.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add(IBusanArr[i]);
 				}
 			}
 		} else if (Busan.equals("2")) {
-			BusanImg = "img/부산_2.png";
+			BusanImg = "부산_2.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add("부산 " + IBusanArr[i]);
@@ -588,7 +588,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Busan.equals("3")) {
-			BusanImg = "img/부산_3.png";
+			BusanImg = "부산_3.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add("부산 " + IBusanArr[i]);
@@ -599,7 +599,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Busan.equals("4")) {
-			BusanImg = "img/부산_4.png";
+			BusanImg = "부산_4.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add("부산 " + IBusanArr[i]);
