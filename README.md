@@ -12,4 +12,4 @@
 * Naver 검색 API (JSON)
 * data.go.kr API (XML)
 * JSON : json-simple-1.1.1.jar 외부 라이브러리
-* XML : Java 내장 DOM Parser
+* XML : DOM Parser (Java 내장)
