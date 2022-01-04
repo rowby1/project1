@@ -77,7 +77,7 @@ public class CoronaDistance extends JFrame {
 		contentPane.add(lt2);
 
 		//이미지 넣기, inner  부분
-		File file = new File("NewDistance.png");
+		File file = new File("img/NewDistance.png");
 		BufferedImage img = null;
 		try {
 			img = ImageIO.read(file);

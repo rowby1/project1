@@ -38,8 +38,8 @@ import model.LoginDao;
 import view.CoronaDistance;
 import view.CoronaNews;
 import view.CovidInfo;
-import view.ImmunizationClinic;
 import view.CovidStatus;
+import view.ImmunizationClinic;
 import view.MemInfo;
 import view.Screening;
 import view.VaccineStatics;
@@ -509,14 +509,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 서울
 
 		if (Seoul.equals("1")) {
-			SeoulImg = "서울_1.png";
+			SeoulImg = "img/서울_1.png";
 			for (int i = 0; i < ISeoulArr.length; i++) {
 				if (ISeoulArr[i].contains("1단계")) {
 					List1.add(ISeoulArr[i]);
 				}
 			}
 		} else if (Seoul.equals("2")) {
-			SeoulImg = "서울_2.png";
+			SeoulImg = "img/서울_2.png";
 			for (int i = 0; i < ISeoulArr.length; i++) {
 				if (ISeoulArr[i].contains("1단계")) {
 					List1.add("서울 " + ISeoulArr[i]);
@@ -525,7 +525,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Seoul.equals("3")) {
-			SeoulImg = "서울_3.png";
+			SeoulImg = "img/서울_3.png";
 			for (int i = 0; i < ISeoulArr.length; i++) {
 				if (ISeoulArr[i].contains("1단계")) {
 					List1.add("서울 " + ISeoulArr[i]);
@@ -536,7 +536,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Seoul.equals("4")) {
-			SeoulImg = "서울_4.png";
+			SeoulImg = "img/서울_4.png";
 			for (int i = 0; i < ISeoulArr.length; i++) {
 				if (ISeoulArr[i].contains("1단계")) {
 					List1.add("서울 " + ISeoulArr[i]);
@@ -572,14 +572,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 부산
 
 		if (Busan.equals("1")) {
-			BusanImg = "부산_1.png";
+			BusanImg = "img/부산_1.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add(IBusanArr[i]);
 				}
 			}
 		} else if (Busan.equals("2")) {
-			BusanImg = "부산_2.png";
+			BusanImg = "img/부산_2.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add("부산 " + IBusanArr[i]);
@@ -588,7 +588,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Busan.equals("3")) {
-			BusanImg = "부산_3.png";
+			BusanImg = "img/부산_3.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add("부산 " + IBusanArr[i]);
@@ -599,7 +599,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Busan.equals("4")) {
-			BusanImg = "부산_4.png";
+			BusanImg = "img/부산_4.png";
 			for (int i = 0; i < IBusanArr.length; i++) {
 				if (IBusanArr[i].contains("1단계")) {
 					List1.add("부산 " + IBusanArr[i]);
@@ -633,14 +633,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 대구
 
 		if (Daegu.equals("1")) {
-			DaeguImg = "대구_1.png";
+			DaeguImg = "img/대구_1.png";
 			for (int i = 0; i < IDaeguArr.length; i++) {
 				if (IDaeguArr[i].contains("1단계")) {
 					List1.add(IDaeguArr[i]);
 				}
 			}
 		} else if (Daegu.equals("2")) {
-			DaeguImg = "대구_2.png";
+			DaeguImg = "img/대구_2.png";
 			for (int i = 0; i < IDaeguArr.length; i++) {
 				if (IDaeguArr[i].contains("1단계")) {
 					List1.add("대구 " + IDaeguArr[i]);
@@ -649,7 +649,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Daegu.equals("3")) {
-			DaeguImg = "대구_3.png";
+			DaeguImg = "img/대구_3.png";
 			for (int i = 0; i < IDaeguArr.length; i++) {
 				if (IDaeguArr[i].contains("1단계")) {
 					List1.add("대구 " + IDaeguArr[i]);
@@ -660,7 +660,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Daegu.equals("4")) {
-			DaeguImg = "대구_4.png";
+			DaeguImg = "img/대구_4.png";
 			for (int i = 0; i < IDaeguArr.length; i++) {
 				if (IDaeguArr[i].contains("1단계")) {
 					List1.add("대구 " + IDaeguArr[i]);
@@ -693,7 +693,7 @@ public class CoronaDamoaMain extends JFrame {
 		// 인천
 
 		if (Inchon.equals("1")) {
-			InchonImg = "인천_1.png";
+			InchonImg = "img/인천_1.png";
 			for (int i = 0; i < IInchonArr.length; i++) {
 				if (IInchonArr[i].contains("1단계")) {
 					List1.add(IInchonArr[i]);
@@ -701,7 +701,7 @@ public class CoronaDamoaMain extends JFrame {
 
 			}
 		} else if (Inchon.equals("2")) {
-			InchonImg = "인천_2.png";
+			InchonImg = "img/인천_2.png";
 			for (int i = 0; i < IInchonArr.length; i++) {
 				if (IInchonArr[i].contains("1단계")) {
 					List1.add("인천 " + IInchonArr[i]);
@@ -710,7 +710,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Inchon.equals("3")) {
-			InchonImg = "인천_3.png";
+			InchonImg = "img/인천_3.png";
 			for (int i = 0; i < IInchonArr.length; i++) {
 				if (IInchonArr[i].contains("1단계")) {
 					List1.add("인천 " + IInchonArr[i]);
@@ -721,7 +721,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Inchon.equals("4")) {
-			InchonImg = "인천_4.png";
+			InchonImg = "img/인천_4.png";
 			for (int i = 0; i < IInchonArr.length; i++) {
 				if (IInchonArr[i].contains("1단계")) {
 					List1.add("인천 " + IInchonArr[i]);
@@ -754,14 +754,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 광주
 
 		if (Gwangju.equals("1")) {
-			GwangjuImg = "광주_1.png";
+			GwangjuImg = "img/광주_1.png";
 			for (int i = 0; i < IGwangjuArr.length; i++) {
 				if (IGwangjuArr[i].contains("1단계")) {
 					List1.add(IGwangjuArr[i]);
 				}
 			}
 		} else if (Gwangju.equals("2")) {
-			GwangjuImg = "광주_2.png";
+			GwangjuImg = "img/광주_2.png";
 			for (int i = 0; i < IGwangjuArr.length; i++) {
 				if (IGwangjuArr[i].contains("1단계")) {
 					List1.add("광주 " + IGwangjuArr[i]);
@@ -770,7 +770,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Gwangju.equals("3")) {
-			GwangjuImg = "광주_3.png";
+			GwangjuImg = "img/광주_3.png";
 			for (int i = 0; i < IGwangjuArr.length; i++) {
 				if (IGwangjuArr[i].contains("1단계")) {
 					List1.add("광주 " + IGwangjuArr[i]);
@@ -781,7 +781,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Gwangju.equals("4")) {
-			GwangjuImg = "광주_4.png";
+			GwangjuImg = "img/광주_4.png";
 			for (int i = 0; i < IGwangjuArr.length; i++) {
 				if (IGwangjuArr[i].contains("1단계")) {
 					List1.add("광주 " + IGwangjuArr[i]);
@@ -814,14 +814,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 대전
 
 		if (Daejion.equals("1")) {
-			DaejionImg = "대전_1.png";
+			DaejionImg = "img/대전_1.png";
 			for (int i = 0; i < IDaejionArr.length; i++) {
 				if (IDaejionArr[i].contains("1단계")) {
 					List1.add(IDaejionArr[i]);
 				}
 			}
 		} else if (Daejion.equals("2")) {
-			DaejionImg = "대전_2.png";
+			DaejionImg = "img/대전_2.png";
 			for (int i = 0; i < IDaejionArr.length; i++) {
 				if (IDaejionArr[i].contains("1단계")) {
 					List1.add("대전 " + IDaejionArr[i]);
@@ -830,7 +830,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Daejion.equals("3")) {
-			DaejionImg = "대전_3.png";
+			DaejionImg = "img/대전_3.png";
 			for (int i = 0; i < IDaejionArr.length; i++) {
 				if (IDaejionArr[i].contains("1단계")) {
 					List1.add("대전 " + IDaejionArr[i]);
@@ -841,7 +841,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Daejion.equals("4")) {
-			DaejionImg = "대전_4.png";
+			DaejionImg = "img/대전_4.png";
 			for (int i = 0; i < IDaejionArr.length; i++) {
 				if (IDaejionArr[i].contains("1단계")) {
 					List1.add("대전 " + IDaejionArr[i]);
@@ -874,14 +874,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 울산
 
 		if (Ulsan.equals("1")) {
-			UlsanImg = "울산_1.png";
+			UlsanImg = "img/울산_1.png";
 			for (int i = 0; i < IUlsanArr.length; i++) {
 				if (IUlsanArr[i].contains("1단계")) {
 					List1.add(IUlsanArr[i]);
 				}
 			}
 		} else if (Ulsan.equals("2")) {
-			UlsanImg = "울산_2.png";
+			UlsanImg = "img/울산_2.png";
 			for (int i = 0; i < IUlsanArr.length; i++) {
 				if (IUlsanArr[i].contains("1단계")) {
 					List1.add("울산 " + IUlsanArr[i]);
@@ -890,7 +890,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Ulsan.equals("3")) {
-			UlsanImg = "울산_3.png";
+			UlsanImg = "img/울산_3.png";
 			for (int i = 0; i < IUlsanArr.length; i++) {
 				if (IUlsanArr[i].contains("1단계")) {
 					List1.add("울산 " + IUlsanArr[i]);
@@ -901,7 +901,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Ulsan.equals("4")) {
-			UlsanImg = "울산_4.png";
+			UlsanImg = "img/울산_4.png";
 			for (int i = 0; i < IUlsanArr.length; i++) {
 				if (IUlsanArr[i].contains("1단계")) {
 					List1.add("울산 " + IUlsanArr[i]);
@@ -934,14 +934,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 세종
 
 		if (Sejong.equals("1")) {
-			SejongImg = "세종_1.png";
+			SejongImg = "img/세종_1.png";
 			for (int i = 0; i < IUlsanArr.length; i++) {
 				if (IUlsanArr[i].contains("1단계")) {
 					List1.add(IUlsanArr[i]);
 				}
 			}
 		} else if (Sejong.equals("2")) {
-			SejongImg = "세종_2.png";
+			SejongImg = "img/세종_2.png";
 			for (int i = 0; i < ISejongArr.length; i++) {
 				if (ISejongArr[i].contains("1단계")) {
 					List1.add("세종 " + ISejongArr[i]);
@@ -950,7 +950,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Sejong.equals("3")) {
-			SejongImg = "세종_3.png";
+			SejongImg = "img/세종_3.png";
 			for (int i = 0; i < ISejongArr.length; i++) {
 				if (ISejongArr[i].contains("1단계")) {
 					List1.add("세종 " + ISejongArr[i]);
@@ -961,7 +961,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Sejong.equals("4")) {
-			SejongImg = "세종_4.png";
+			SejongImg = "img/세종_4.png";
 			for (int i = 0; i < ISejongArr.length; i++) {
 				if (ISejongArr[i].contains("1단계")) {
 					List1.add("세종 " + ISejongArr[i]);
@@ -994,14 +994,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 경기
 
 		if (Gyunggi.equals("1")) {
-			GyunggiImg = "경기_1.png";
+			GyunggiImg = "img/경기_1.png";
 			for (int i = 0; i < IGyunggiArr.length; i++) {
 				if (IGyunggiArr[i].contains("1단계")) {
 					List1.add(IGyunggiArr[i]);
 				}
 			}
 		} else if (Gyunggi.equals("2")) {
-			GyunggiImg = "경기_2.png";
+			GyunggiImg = "img/경기_2.png";
 			for (int i = 0; i < IGyunggiArr.length; i++) {
 				if (IGyunggiArr[i].contains("1단계")) {
 					List1.add("경기 " + IGyunggiArr[i]);
@@ -1010,7 +1010,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Gyunggi.equals("3")) {
-			GyunggiImg = "경기_3.png";
+			GyunggiImg = "img/경기_3.png";
 			for (int i = 0; i < IGyunggiArr.length; i++) {
 				if (IGyunggiArr[i].contains("1단계")) {
 					List1.add("경기 " + IGyunggiArr[i]);
@@ -1021,7 +1021,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Gyunggi.equals("4")) {
-			GyunggiImg = "경기_4.png";
+			GyunggiImg = "img/경기_4.png";
 			for (int i = 0; i < IGyunggiArr.length; i++) {
 				if (IGyunggiArr[i].contains("1단계")) {
 					List1.add("경기 " + IGyunggiArr[i]);
@@ -1055,14 +1055,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 강원
 
 		if (Gangwon.equals("1")) {
-			GangwonImg = "강원_1.png";
+			GangwonImg = "img/강원_1.png";
 			for (int i = 0; i < IGangwonArr.length; i++) {
 				if (IGangwonArr[i].contains("1단계")) {
 					List1.add(IGangwonArr[i]);
 				}
 			}
 		} else if (Gangwon.equals("2")) {
-			GangwonImg = "강원_2.png";
+			GangwonImg = "img/강원_2.png";
 			for (int i = 0; i < IGangwonArr.length; i++) {
 				if (IGangwonArr[i].contains("1단계")) {
 					List1.add("강원 " + IGangwonArr[i]);
@@ -1071,7 +1071,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Gangwon.equals("3")) {
-			GangwonImg = "강원_3.png";
+			GangwonImg = "img/강원_3.png";
 			for (int i = 0; i < IGangwonArr.length; i++) {
 				if (IGangwonArr[i].contains("1단계")) {
 					List1.add("강원 " + IGangwonArr[i]);
@@ -1082,7 +1082,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Gangwon.equals("4")) {
-			GangwonImg = "강원_4.png";
+			GangwonImg = "img/강원_4.png";
 			for (int i = 0; i < IGangwonArr.length; i++) {
 				if (IGangwonArr[i].contains("1단계")) {
 					List1.add("강원 " + IGangwonArr[i]);
@@ -1115,14 +1115,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 충북
 
 		if (ChungB.equals("1")) {
-			ChungBImg = "충북_1.png";
+			ChungBImg = "img/충북_1.png";
 			for (int i = 0; i < IChungBArr.length; i++) {
 				if (IChungBArr[i].contains("1단계")) {
 					List1.add(IChungBArr[i]);
 				}
 			}
 		} else if (ChungB.equals("2")) {
-			ChungBImg = "충북_2.png";
+			ChungBImg = "img/충북_2.png";
 			for (int i = 0; i < IChungBArr.length; i++) {
 				if (IChungBArr[i].contains("1단계")) {
 					List1.add("충북 " + IChungBArr[i]);
@@ -1131,7 +1131,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (ChungB.equals("3")) {
-			ChungBImg = "충북_3.png";
+			ChungBImg = "img/충북_3.png";
 			for (int i = 0; i < IChungBArr.length; i++) {
 				if (IChungBArr[i].contains("1단계")) {
 					List1.add("충북 " + IChungBArr[i]);
@@ -1142,7 +1142,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (ChungB.equals("4")) {
-			ChungBImg = "충북_4.png";
+			ChungBImg = "img/충북_4.png";
 			for (int i = 0; i < IChungBArr.length; i++) {
 				if (IChungBArr[i].contains("1단계")) {
 					List1.add("충북 " + IChungBArr[i]);
@@ -1175,14 +1175,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 충남
 
 		if (ChungN.equals("1")) {
-			ChungNImg = "충남_1.png";
+			ChungNImg = "img/충남_1.png";
 			for (int i = 0; i < IChungNArr.length; i++) {
 				if (IChungNArr[i].contains("1단계")) {
 					List1.add(IChungNArr[i]);
 				}
 			}
 		} else if (ChungN.equals("2")) {
-			ChungNImg = "충남_2.png";
+			ChungNImg = "img/충남_2.png";
 			for (int i = 0; i < IChungNArr.length; i++) {
 				if (IChungNArr[i].contains("1단계")) {
 					List1.add("충남 " + IChungNArr[i]);
@@ -1191,7 +1191,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (ChungN.equals("3")) {
-			ChungNImg = "충남_3.png";
+			ChungNImg = "img/충남_3.png";
 			for (int i = 0; i < IChungNArr.length; i++) {
 				if (IChungNArr[i].contains("1단계")) {
 					List1.add("충남 " + IChungNArr[i]);
@@ -1202,7 +1202,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (ChungN.equals("4")) {
-			ChungNImg = "충남_4.png";
+			ChungNImg = "img/충남_4.png";
 			for (int i = 0; i < IChungNArr.length; i++) {
 				if (IChungNArr[i].contains("1단계")) {
 					List1.add("충남 " + IChungNArr[i]);
@@ -1235,14 +1235,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 전북
 
 		if (JunB.equals("1")) {
-			JunBImg = "전북_1.png";
+			JunBImg = "img/전북_1.png";
 			for (int i = 0; i < IJunBArr.length; i++) {
 				if (IJunBArr[i].contains("1단계")) {
 					List1.add(IJunBArr[i]);
 				}
 			}
 		} else if (JunB.equals("2")) {
-			JunBImg = "전북_2.png";
+			JunBImg = "img/전북_2.png";
 			for (int i = 0; i < IJunBArr.length; i++) {
 				if (IJunBArr[i].contains("1단계")) {
 					List1.add("전북 " + IJunBArr[i]);
@@ -1251,7 +1251,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (JunB.equals("3")) {
-			JunBImg = "전북_3.png";
+			JunBImg = "img/전북_3.png";
 			for (int i = 0; i < IJunBArr.length; i++) {
 				if (IJunBArr[i].contains("1단계")) {
 					List1.add("전북 " + IJunBArr[i]);
@@ -1262,7 +1262,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (JunB.equals("4")) {
-			JunBImg = "전북_4.png";
+			JunBImg = "img/전북_4.png";
 			for (int i = 0; i < IJunBArr.length; i++) {
 				if (IJunBArr[i].contains("1단계")) {
 					List1.add("전북 " + IJunBArr[i]);
@@ -1295,14 +1295,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 전남
 
 		if (JunN.equals("1")) {
-			JunNImg = "전남_1.png";
+			JunNImg = "img/전남_1.png";
 			for (int i = 0; i < IJunNArr.length; i++) {
 				if (IJunNArr[i].contains("1단계")) {
 					List1.add(IJunNArr[i]);
 				}
 			}
 		} else if (JunN.equals("2")) {
-			JunNImg = "전남_2.png";
+			JunNImg = "img/전남_2.png";
 			for (int i = 0; i < IJunNArr.length; i++) {
 				if (IJunNArr[i].contains("1단계")) {
 					List1.add("전남 " + IJunNArr[i]);
@@ -1311,7 +1311,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (JunN.equals("3")) {
-			JunNImg = "전남_3.png";
+			JunNImg = "img/전남_3.png";
 			for (int i = 0; i < IJunNArr.length; i++) {
 				if (IJunNArr[i].contains("1단계")) {
 					List1.add("전남 " + IJunNArr[i]);
@@ -1322,7 +1322,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (JunN.equals("4")) {
-			JunNImg = "전남_4.png";
+			JunNImg = "img/전남_4.png";
 			for (int i = 0; i < IJunNArr.length; i++) {
 				if (IJunNArr[i].contains("1단계")) {
 					List1.add("전남 " + IJunNArr[i]);
@@ -1355,14 +1355,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 경북
 
 		if (GyungB.equals("1")) {
-			GyungBImg = "경북_1.png";
+			GyungBImg = "img/경북_1.png";
 			for (int i = 0; i < IGyungBArr.length; i++) {
 				if (IGyungBArr[i].contains("1단계")) {
 					List1.add(IGyungBArr[i]);
 				}
 			}
 		} else if (GyungB.equals("2")) {
-			GyungBImg = "경북_2.png";
+			GyungBImg = "img/경북_2.png";
 			for (int i = 0; i < IGyungBArr.length; i++) {
 				if (IGyungBArr[i].contains("1단계")) {
 					List1.add("경북 " + IGyungBArr[i]);
@@ -1371,7 +1371,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (GyungB.equals("3")) {
-			GyungBImg = "경북_3.png";
+			GyungBImg = "img/경북_3.png";
 			for (int i = 0; i < IGyungBArr.length; i++) {
 				if (IGyungBArr[i].contains("1단계")) {
 					List1.add("경북 " + IGyungBArr[i]);
@@ -1382,7 +1382,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (GyungB.equals("4")) {
-			GyungBImg = "경북_4.png";
+			GyungBImg = "img/경북_4.png";
 			for (int i = 0; i < IGyungBArr.length; i++) {
 				if (IGyungBArr[i].contains("1단계")) {
 					List1.add("경북 " + IGyungBArr[i]);
@@ -1416,14 +1416,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 경남
 
 		if (GyungN.equals("1")) {
-			GyungNImg = "경남_1.png";
+			GyungNImg = "img/경남_1.png";
 			for (int i = 0; i < IGyungNArr.length; i++) {
 				if (IGyungNArr[i].contains("1단계")) {
 					List1.add(IGyungNArr[i]);
 				}
 			}
 		} else if (GyungN.equals("2")) {
-			GyungNImg = "경남_2.png";
+			GyungNImg = "img/경남_2.png";
 			for (int i = 0; i < IGyungNArr.length; i++) {
 				if (IGyungNArr[i].contains("1단계")) {
 					List1.add("경남 " + IGyungNArr[i]);
@@ -1432,7 +1432,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (GyungN.equals("3")) {
-			GyungNImg = "경남_3.png";
+			GyungNImg = "img/경남_3.png";
 			for (int i = 0; i < IGyungNArr.length; i++) {
 				if (IGyungNArr[i].contains("1단계")) {
 					List1.add("경남 " + IGyungNArr[i]);
@@ -1443,7 +1443,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (GyungN.equals("4")) {
-			GyungNImg = "경남_4.png";
+			GyungNImg = "img/경남_4.png";
 			for (int i = 0; i < IGyungNArr.length; i++) {
 				if (IGyungNArr[i].contains("1단계")) {
 					List1.add("경남 " + IGyungNArr[i]);
@@ -1476,14 +1476,14 @@ public class CoronaDamoaMain extends JFrame {
 		// 제주
 
 		if (Jeju.equals("1")) {
-			JejuImg = "제주_1.png";
+			JejuImg = "img/제주_1.png";
 			for (int i = 0; i < IJejuArr.length; i++) {
 				if (IJejuArr[i].contains("1단계")) {
 					List1.add(IJejuArr[i]);
 				}
 			}
 		} else if (Jeju.equals("2")) {
-			JejuImg = "제주_2.png";
+			JejuImg = "img/제주_2.png";
 			for (int i = 0; i < IJejuArr.length; i++) {
 				if (IJejuArr[i].contains("1단계")) {
 					List1.add("제주 " + IJejuArr[i]);
@@ -1492,7 +1492,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Jeju.equals("3")) {
-			JejuImg = "제주_3.png";
+			JejuImg = "img/제주_3.png";
 			for (int i = 0; i < IJejuArr.length; i++) {
 				if (IJejuArr[i].contains("1단계")) {
 					List1.add("제주 " + IJejuArr[i]);
@@ -1503,7 +1503,7 @@ public class CoronaDamoaMain extends JFrame {
 				}
 			}
 		} else if (Jeju.equals("4")) {
-			JejuImg = "제주_4.png";
+			JejuImg = "img/제주_4.png";
 			for (int i = 0; i < IJejuArr.length; i++) {
 				if (IJejuArr[i].contains("1단계")) {
 					List1.add("제주 " + IJejuArr[i]);
