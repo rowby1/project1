@@ -13,3 +13,6 @@
 * data.go.kr API (XML)
 * JSON : json-simple-1.1.1.jar 외부 라이브러리
 * XML : DOM Parser (Java 내장)
+
+## 프로젝트 인원
+* 4
