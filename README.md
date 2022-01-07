@@ -31,7 +31,7 @@
 ## 사용기술
 * Java Swing
 * Naver 검색 API (JSON)
-* data.go.kr API (XML)
+* data.go.kr API (JSON, XML)
 * JSON : json-simple-1.1.1.jar 외부 라이브러리
 * XML : DOM Parser (Java 내장)
 
